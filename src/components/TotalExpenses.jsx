@@ -66,11 +66,8 @@ const TotalExpenses = () => {
           <h5 className="title">Your total spend</h5>
           <div className="form-group">
             <label>
-              <select
-                className="form-select shadow-none"
-                aria-label="Default select example"
-              >
-                <option selected>this month</option>
+              <select className="form-select shadow-none">
+                <option value="this month">this month</option>
                 <option>June</option>
                 <option>July</option>
               </select>
