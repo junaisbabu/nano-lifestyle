@@ -1,0 +1,144 @@
+.value-container {
+  width: 333px;
+  margin: 10px auto;
+}
+
+.value-container .form-control {
+  margin: 10px 0px;
+}
+
+.food-inp {
+  outline: 2px solid #ffb800;
+}
+
+.shopping-inp {
+  outline: 2px solid #1ba493;
+}
+
+.movies-inp {
+  outline: 2px solid #e44816;
+}
+
+.form-group .form-select {
+  position: relative;
+  left: 10px;
+  border: none;
+  color: #ffffff;
+  background: url("data:image/svg+xml,<svg height='20px' width='20px' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 1.5L6 6.5L11 1.5' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>")
+    no-repeat;
+  background-position: 95% 100%;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.form-select option {
+  background-color: #3f3f3f;
+}
+
+.card-container {
+  width: 333px;
+  height: 187px;
+  background-color: #3f3f3f;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 12px;
+  padding: 22px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.top-sec {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.line-icon {
+  position: absolute;
+  width: 69px;
+  height: 2px;
+  z-index: 1;
+  right: 24px;
+  bottom: 0px;
+  background-color: #ffffff;
+}
+
+.middle-sec {
+  text-align: left;
+}
+
+.currency {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-right: 11px;
+}
+
+.price {
+  font-size: 30px;
+}
+
+.food {
+  background-color: #ffb800;
+}
+
+.shopping {
+  background-color: #1ba493;
+}
+.movies {
+  background-color: #e44816;
+}
+
+.percentage-bar {
+  width: 97%;
+  height: 8px;
+  position: relative;
+  display: flex;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.bottom-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.items {
+  display: flex;
+  justify-content: left;
+  margin-top: 13px;
+}
+
+.items > div {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.round-icon {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 5px;
+  font-weight: 400;
+}
+
+.items span {
+  font-size: 12px;
+}
